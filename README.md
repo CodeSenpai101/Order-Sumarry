@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-componentflexbox-3Q5L41nKf]()
+- Live Site URL: [https://codesenpai101.github.io/Order-Summary/]()
 
 
 
