@@ -1,0 +1,165 @@
+.annual-txt{
+  font-weight: 900;
+  color:hsl(223, 47%, 23%);
+  font-size: 1.3rem;
+  position: relative;
+  bottom: 90px;
+  right: 54px;
+}
+.attribution{
+  color: hsl(224, 23%, 55%);
+  position: relative;
+  top: 60px;
+}
+body{
+  background-color: hsl(225, 100%, 94%);
+  height: 1150px;
+  
+}
+.border{
+  display: flex;
+  width: 520px;
+  height: 860px;
+  background-color: #fff;
+  flex-direction: column;
+  margin: auto auto 50px auto;
+  text-align: center;
+  border-radius: 4%;
+  position: relative;
+  bottom: 400px;
+  box-shadow: 0 10px 10px hsl(225, 100%, 98%);
+  font-family: "Red Hat Display";
+}
+.cancel-txt{
+  margin-bottom: 60px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+.cancel-txt:hover{
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+.change-txt{
+  padding-left: 280px;
+  color: #3829E0;
+  font-weight: 700;
+  position: relative;
+  bottom: 90px;
+}
+.change-txt:hover{
+  color: hsl(245, 40%, 60%);
+  cursor: pointer;
+}
+.cost-txt{
+  font-size: 1.3rem;
+  font-size: 700;
+  line-height: 0.5;
+  position: relative;
+  bottom: 96px;
+  right: 60px; 
+}
+.heading{
+  font-weight: 900;
+  color:rgb(31, 47, 86);
+  padding-bottom: 20px;
+  font-size: 2.1rem;
+  padding-top: 20px;
+}
+.hero-img{
+  padding-bottom: 2rem;
+  border-radius: 4%;
+}
+.link{
+  color: #3829E0;
+  
+}
+.link:hover{
+  color: hsl(245, 40%, 60%);
+}
+.main-txt{
+  padding: 0 40px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin-bottom: -20px;
+}
+.music-icon{
+  width: 16%;
+  padding: 18% 0 0 10%;
+  position: relative;
+  bottom: 30px;
+  right: 40px;
+}
+.music-border{
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 6%;
+  width: 24rem;
+  height: 3rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 80px 30px; 
+}
+p{
+  font-family: "Red Hat Display";
+  font-size: 16px; 
+  color:hsl(224, 23%, 55%);
+}
+.pattern{
+  width: 100%;
+}
+.payment-btn{ 
+  margin: -5px auto auto auto;
+  color: #fff;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3829E0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 3.5rem;
+  box-shadow: 0 8px 10px hsl(245, 40%, 70%);
+}
+.payment-btn:hover{
+  background: hsl(245, 40%, 60%);
+  text-decoration: none;
+  cursor: pointer;
+}
+/* mobile display */
+@media (max-width: 1199px){
+  .border{
+    margin-top: 300px;
+  }
+}
+/* laptop display */
+@media (max-width:1300px){
+  .border{
+    margin-top: 200px;
+  }
+}
+
+/* reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
